@@ -1,13 +1,14 @@
 .app {
   height: 100vh;
   overflow-x: hidden;
-
+  scroll-behavior: smooth;
   .sections {
     // background: red;
     width: 100%;
     height: calc(100vh - 70px);
     position: relative;
     top: 70px;
+
     scroll-snap-type: y mandatory;
     scrollbar-width: none;
     &::-webkit-scrollbar {

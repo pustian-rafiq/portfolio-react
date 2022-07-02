@@ -2,7 +2,7 @@ import React from 'react'
 import "./work.scss"
 const Work = () => {
   return (
-    <div className="work">Work</div>
+    <div className="work" id="work">Work</div>
   )
 }
 
